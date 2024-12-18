@@ -203,9 +203,9 @@ function ControlTray({
             className={cn("action-button connect-toggle", { connected })}
             onClick={connected ? disconnect : connect}
           >
-            <span className="material-symbols-outlined filled">
-              {connected ? "pause" : "play_arrow"}
-            </span>
+          <div className="logo-container">
+           <img className="logo" src="/flipas-logo.svg" alt=""/>
+          </div>
           </button>
         </div>
         <span className="text-indicator">Streaming</span>

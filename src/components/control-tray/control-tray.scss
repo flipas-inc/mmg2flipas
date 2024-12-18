@@ -91,6 +91,13 @@
   }
 }
 
+
+
+.logo{
+height: 20px;
+  
+}
+
 .connect-toggle {
   &:focus {
     border: 2px solid var(--Neutral-20);
@@ -98,7 +105,7 @@
   }
 
   &:not(.connected) {
-    background-color: var(--Blue-500);
+    background-color: var(--gray-1000);
     color: var(--Neutral-5);
   }
 }
