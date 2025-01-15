@@ -45,7 +45,7 @@ function AltairComponent() {
       generationConfig: {
         responseModalities: "audio",
         speechConfig: {
-          voiceConfig: { prebuiltVoiceConfig: { voiceName: "Kore" } },
+          voiceConfig: { prebuiltVoiceConfig: { voiceName: "Puck" } },
         },
       },
       systemInstruction: {
