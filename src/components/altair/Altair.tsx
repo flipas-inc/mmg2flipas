@@ -44,8 +44,9 @@ function AltairComponent() {
       model: "models/gemini-2.0-flash-exp",
       generationConfig: {
         responseModalities: "audio",
+        temperature: 1.81,
         speechConfig: {
-          voiceConfig: { prebuiltVoiceConfig: { voiceName: "Puck" } },
+          voiceConfig: { prebuiltVoiceConfig: { voiceName: "Aoede" } },
         },
       },
       systemInstruction: {
